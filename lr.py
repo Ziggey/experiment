@@ -77,7 +77,7 @@ def rmse(Y, Y_pred):
 def r2_score(Y, Y_pred):
     mean_y = np.mean(Y)
     ss_tot = sum((Y - mean_y) ** 2)
-    ss_res = sum((Y - Y_pred) ** 2)
+    ss_res = sum((Y - Y_pred) ** 2)                                                                                                                               vvvvvvvbvbn
     r2 = 1 - (ss_res / ss_tot)
     return r2
 
